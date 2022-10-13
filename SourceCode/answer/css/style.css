@@ -1,0 +1,95 @@
+body {
+    background-color:#1A276D;
+}
+
+.silhouetteArea{
+    background-color: #FA973C;
+    border: solid;
+    border-radius: 30px;
+    width:60%;
+    height:55%;
+    position: fixed;
+    left:4%;
+    top:2.5%;
+}
+
+.result{
+    font-size: 36px;
+    font-weight: bold;
+    color:red;
+    position: fixed;
+    left: 8%;
+    top:0%;
+}
+
+.silhouette{
+    width:256px;
+    position: fixed;
+    top:13%;
+    left:25%;
+}
+
+.profile{
+    background-color: #FA973C;
+    border: solid;
+    border-radius: 30px;
+    width:29.5%;
+    height:55%;
+    position:fixed;
+    top:2.5%;
+    left:67%;
+}
+
+.japanese{
+    border:none;
+    background:transparent;
+    position: relative;
+    top:3%;
+    left:17%;
+}
+
+.english{
+    border:none;
+    background:transparent;
+    position: relative;
+    top:4.25%;
+    left:17%;
+}
+
+#JapaneseNumber , #JapaneseName , #JapaneseCategory , #JapaneseHeight , #JapaneseWeight , #EnglishNumber , #EnglishName , #EnglishCategory , #EnglishHeight , #EnglishWeight{
+    font-size:20px;
+    font-weight:bold;
+    position: relative;
+    left:5%;
+}
+
+.detailProfile{
+    background-color: #FA973C;
+    border: solid;
+    border-radius: 30px;
+    width:65%;
+    height:35%;
+    position: fixed;
+    top:61%;
+    left:31.5%;
+}
+
+#JapaneseDetail , #EnglishDetail {
+    font-size:20px;
+    font-weight:bold;
+    position: relative;
+    top:5%;
+    left:3%;
+}
+
+.nextBall{
+    width:256px;
+    position: fixed;
+    top:66%;
+    left:5%;
+}
+
+.next{
+    border:none;
+    background:transparent;
+}

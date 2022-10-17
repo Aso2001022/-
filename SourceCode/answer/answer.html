@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+    <meta name="description" content="answerPage">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="silhouetteArea">
+
+        <p class="result">せいかい◎</p>
+        <img src="a" id="PokemonAnswerImg" alt="" class="silhouette">
+
+    </div><br>
+  
+    <div class="profile">
+
+        <button class="japanese"  onclick="japaneseButtonClick()"><img src="img/モンスターボール.png" alt="" class="monster-ball"></button>
+        <button class="english" onclick="englishButtonClick()"><img src="img/マスターボール.png" alt="" class="master-ball"></button>
+
+        <div id="japaneseText">
+
+            <p id="JapaneseNumber"></p>
+            <p id="JapaneseName"></p>
+            <p id="JapaneseCategory"></p>
+            <p id="JapaneseHeight"></p>
+            <p id="JapaneseWeight"></p>
+
+        </div>
+
+        <div id="englishText" hidden>
+
+            <p id="EnglishNumber"></p>
+            <p id="EnglishName"></p>
+            <p id="EnglishCategory"></p>
+            <p id="EnglishHeight"></p>
+            <p id="EnglishWeight"></p>
+
+        </div>
+
+    </div>
+
+    <div class="detailProfile">
+
+        <div id="JapaneseDetailProfile">
+
+            <p id="JapaneseDetail"></p>
+
+        </div>
+
+        <div id="EnglishDetailProfile" hidden>
+
+            <p id="EnglishDetail"></p>
+
+        </div>
+        
+    </div>
+
+    <div class="nextBall">
+
+        <button class="next" onclick="nextQuestion()"><img src="img/Next.png" alt="" class="nextImage"></button>
+
+    </div>
+
+    <ol id="pokedex"></ol>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/pokeApi.js"></script>
+
+
+</body>
+</html>
+

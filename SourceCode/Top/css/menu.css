@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/Kusamura.png);
+    background-position: 35% 13%;
+    background-size: 146vw;
+}
+h1{
+    top: 5vw;
+    left: 12vw;
+    text-align: center;
+    font-size: 7vw;
+    color: black;
+}
+h2{
+    position: absolute;
+    left: 3vw;
+    top: 0vw;
+    font-family: イカモドキ;
+}
+button1{
+    border: none;
+    background: transparent;
+    display: inline-flex;
+    flex-direction: column;
+}
+.easy{
+    font-size: 3vw;
+}
+.normal{
+    font-size: 3vw;
+}
+.difficult{
+    font-size: 3vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 0 10px 0px;
+}
+.lebel{
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+    margin: 0px 300px 0px 300px;
+}
+ul {
+    list-style: none;
+}
+footer{
+    text-align:right;
+    font-size:12px;
+}
+#btn-play{
+    width:100px;
+    height:40px;
+    padding:10px;
+    font-size:18px;
+}
+button{
+    position: absolute;
+    bottom: 4vw;
+    left: 5vw;
+}

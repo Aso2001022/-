@@ -2,7 +2,7 @@
 
 ##  テーブル定義書
 
-### <img src="./img/DB.png" width="500">
+### <img src="./img/DB1.png" width="500">
 
 --------
 

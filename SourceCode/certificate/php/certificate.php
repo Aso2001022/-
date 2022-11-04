@@ -36,7 +36,7 @@ if($sum == 10){
         <title>certificate</title>
     </head>
     <body>
-        <div class="certificate">
+        <div class="certificate-100">
             <img src="syoujou.jpg"> 
             <?php echo "<p>てんすう", $sum ,"てん</p></br>"; ?>
             <?php echo "あなたのレベルは", $a ,"です</br>";?>

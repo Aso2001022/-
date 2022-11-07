@@ -1,0 +1,55 @@
+header{
+  font-size: 70px;
+  text-align: center;
+}
+body{
+  font-family: "Hiragino Sans","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ã‚·ãƒƒã‚¯"; font-weight: 900;
+  color: #000;
+  -webkit-text-stroke: 2px #FFF;
+  text-stroke: 1px #FFF;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.problem{
+  font-size: 30px;
+  margin: 0px 0px 50px 40px;
+  color: black;
+  -webkit-text-stroke: 1px #FFF;
+  text-stroke: 1px #FFF;
+
+}
+
+.pokemon{
+  width: 4pc;
+  height: 4pc;
+  margin: -20px 0px 0px 50px;
+
+
+}
+.test{
+  display: flex;
+}
+.maru{
+  font-size: 30px;
+  margin: 0px 0px 50px 50px;
+  color:#FF0000;
+  font-weight: 1000;
+}
+
+.ball{
+  margin: 0px 0px 0px 1200px;
+  width: 5pc;
+  height: 4pc;
+}
+.batsu{
+  font-size: 30px;
+  margin: 0px 0px 50px 50px;
+  color:blue;
+  font-weight: 1000;
+  -webkit-text-stroke: 1px #000000;
+  text-stroke: 1px #000000;
+}

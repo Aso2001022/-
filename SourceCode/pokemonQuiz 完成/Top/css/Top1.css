@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/Kusamura.png);
+    background-position: 35% 13%;
+    background-size: 146vw;
+}
+.Top a{
+    display: block;
+    text-decoration: none;
+    padding: 14%;
+}
+.title{
+    top: 5vw;
+    right: 10vw;
+    width: 80%;
+    position: absolute;
+}
+p{
+    position: relative;
+    font-size: 5vw;
+    top: 10vw;
+    color: black;
+    text-align: center;
+}
+footer{
+    text-align:right;
+    font-size:12px;
+}
+#btn-play{
+    width:100px;
+    height:40px;
+    padding:10px;
+    font-size:18px;
+}
+button{
+    position: absolute;
+    bottom: 4vw;
+    left: 5vw;
+}

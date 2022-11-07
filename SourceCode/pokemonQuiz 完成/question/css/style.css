@@ -1,0 +1,117 @@
+body {
+
+    background-color:#1A276D;
+
+}
+
+#silhouette {
+
+    width:256px;
+    filter: brightness(0%);
+
+}
+
+#square {
+
+    border: solid 10px #D9D9D9;
+    background: #3999B8;
+    width:350px;
+    height:350px;
+    position: fixed;
+    top:5%;
+    left:13%;
+
+}
+
+#square #silhouette {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+#square #ball1 {
+
+    width:48px;
+    position: absolute;
+    top: -7%;
+    left: -7%;
+
+}
+
+#square #ball2 {
+
+    width:48px;
+    position: absolute;
+    top: -7%;
+    right:-7%;
+
+}
+
+#square #ball3 {
+
+    width:48px;
+    position: absolute;
+    top:95%;
+    left: -7%;
+
+}
+
+#square #ball4 {
+
+    width:48px;
+    position: absolute;
+    top:95%;
+    right:-7%;
+
+}
+
+
+#icon {
+
+    position: fixed;
+    top:60%;
+    left: 51%;
+
+}
+
+#answerArea {
+
+    position: fixed;
+    left:60%;
+    
+
+}
+
+#text {
+
+    font-size: 58px;
+    color: #DCDF38;
+    
+}
+
+#textBox {
+
+    height: 75px;
+    width: 300px;
+    font-size: 50px;
+    position: absolute;
+    left:-18%;
+    background: #3999B8;
+    text-align: center;
+
+}
+
+#toAnswer{
+
+    width:339px;
+    position: fixed;
+    top:66%;
+    left:13%;
+
+}
+

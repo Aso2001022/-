@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/Kusamura.png);
+    background-position: 35% 13%;
+    background-size: 146vw;
+}
+.button1{
+    border: none;
+    background: transparent;
+    display: inline-flex;
+    flex-direction: column;
+}
+.lebel{
+    border: 2px solid;
+    border-color: black;
+    text-align: center;
+    margin: 0px 300px 0px 300px;
+}
+ul {
+    list-style: none;
+}
+footer{
+    text-align:right;
+    font-size:12px;
+}
+#btn-play{
+    width:100px;
+    height:40px;
+    padding:10px;
+    font-size:18px;
+    cursor: pointer;
+}
+button{
+    position: absolute;
+    bottom: 4vw;
+    left: 5vw;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 3vw;
+    color: black;
+    cursor: url(../img/ball.png),pointer;
+}
+.easy{
+    margin: 1vw 0 1vw 0px;
+}
+.normal{
+    margin: 1vw 0 1vw 0px;
+}
+.difficult{
+    margin: 1vw 0 1vw 0px;
+}

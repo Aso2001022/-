@@ -13,7 +13,9 @@ if($_SESSION['score'] == 100){
     $a = "コイキング"; //残り
     $b = "もっとがんばろう"; //残りコメント
 }
+ $score = $_SESSION['score']
 ?>
+
 
 
 <!DOCTYPE html>
@@ -28,14 +30,22 @@ if($_SESSION['score'] == 100){
     </head>
     <body>
         <div class="certificate-100">
-            <img src="../img/syoujou.jpg"> 
-            <?php echo "<p>てんすう     ", $_SESSION['score'] ,"てん</br>"; ?>
-            <?php echo "あなたのレベルは", $a ,"です</br>";?>
-            <?php echo $b ,"</p>";?>
+            <style type="text/css">
+    	     body {
+ 		background-color: #486d46;
+       		background-image: url("syoujou.jpg");
+        	background-size: cover;
+        	background-attachment: fixed;
+        	background-position: center center;
+    }
+</style>
+   	
+            <?php echo '<p class="1">てんすう', $score ,'てん</p>'; ?>
+            <?php echo '<p class="2">あなたのレベルは', $a ,'です<p>';?>
+            <?php echo '<p class="3">', $b ,'</p>';?>
             
         </div>
-        <div class="button-onmore">
-            <a href="http://aso2001017.babyblue.jp/pokemonQuiz/menu/menu.php">もう一度</a>
+        <div class="button-onmore">            <a href="http://aso2001017.babyblue.jp/pokemonQuiz/menu/menu.php">もう一度</a>
         </div>
         <div class="button-title">
             <a href="http://aso2001017.babyblue.jp/pokemonQuiz/Top/Top1.html">タイトルへ</a>

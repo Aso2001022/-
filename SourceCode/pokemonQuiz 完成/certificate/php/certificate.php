@@ -39,11 +39,13 @@ if($_SESSION['score'] == 100){
         	background-position: center center;
     }
 </style>
+	<div class="outer">
    	
             <?php echo '<p class="1">てんすう', $score ,'てん</p>'; ?>
             <?php echo '<p class="2">あなたのレベルは', $a ,'です<p>';?>
             <?php echo '<p class="3">', $b ,'</p>';?>
-            
+
+	</div>
         </div>
         <div class="button-onmore">            <a href="http://aso2001017.babyblue.jp/pokemonQuiz/menu/menu.php">もう一度</a>
         </div>

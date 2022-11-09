@@ -1,40 +1,34 @@
 .certificat-100 {
-    width:700px;
-    height:auto;
-    position: relative;
+    width: 100%;
 }
 
-.certificate-100 p {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    padding:auto;
-    margin:auto;
-    font-size:30px;
-    padding:0;
+.outer{
+    font-size: 40px;
+    text-align: center;
+    transform: translate(0,60%);
 }
+
 
 .certificate-100 img {
-    width:100%;
-    height:auto;
+    width: 1510px;
+    height: 752px;
 }
 
 .button-onmore a {
     position: absolute;
-    top: 85%;
+    top: 83%;
     left: 35%;
     padding: 0;
     margin: 0;
     color: #313131;
-    font-family: "MS 明朝";
+    font-family: "Hiragino Sans","ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ã‚·ãƒƒã‚¯";
     font-size: 40px;
 }
 
 
 .button-title a {
     position: absolute;
-    top: 85%;
+    top: 83%;
     left: 55%;
     padding: 0;
     margin: 0;

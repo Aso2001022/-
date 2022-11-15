@@ -55,5 +55,3 @@ if($_SESSION['score'] == 100){
         <?php session_destroy(); ?>
     </body>
 </html>
-
-
